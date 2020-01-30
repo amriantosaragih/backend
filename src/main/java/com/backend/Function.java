@@ -31,14 +31,9 @@ public class Function {
             return this.nomor1 / this.nomor2;
         } else {
             System.out.println("Nomor pembagi yang anda masukkan tidak boleh sama dengan 0");
+            System.out.println("coba");
             return 0;
         }
-
-//        try {
-//            return this.nomor1 / this.nomor2;
-//        } catch (ArithmeticException ae) {
-//            return 0;
-//        }
     }
 
     public int checkNomor (int inputNomor) {
