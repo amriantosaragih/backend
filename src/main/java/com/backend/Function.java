@@ -29,11 +29,13 @@ public class Function {
     public int pembagian() {
         if (this.nomor2 != 0) {
             return this.nomor1 / this.nomor2;
+        } else if (this.nomor2 == 0) {
+            System.out.println("nomor 0");
         } else {
             System.out.println("Nomor pembagi yang anda masukkan tidak boleh sama dengan 0");
+            System.out.println("coba");
             return 0;
         }
-
 //        try {
 //            return this.nomor1 / this.nomor2;
 //        } catch (ArithmeticException ae) {
